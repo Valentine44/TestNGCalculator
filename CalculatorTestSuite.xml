@@ -1,0 +1,68 @@
+<!DOCTYPE suite SYSTEM 	"http://testng.org/testng-1.0.dtd">
+<suite name="CalculatorTestSuite" verbose="2" configfailurepolicy="continue" parallel="tests" thread-count="4">
+	<!-- <groups>
+		<run>
+			<exclude name="failed"/>
+		</run>
+	</groups> -->
+	<test name="CalculatorTestSum">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestSum"></class>
+		</classes>
+	</test>
+	<test name="CalculatorTestSub">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestSub"></class>
+		</classes>
+	</test>
+	<test name="CalculatorTestMult">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestMult"></class>
+		</classes>
+	</test>
+	<test name="CalculatorTestDiv">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestDiv"></class>
+		</classes>
+	</test>
+	<test name="CalculatorTestPow">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestPow"></class>
+		</classes>
+	</test>
+	<test name="CalculatorTestSqrt">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestSqrt"></class>
+		</classes>
+	</test>
+	<test name="CalculatorTestTg">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestTg"></class>
+		</classes>
+	</test>
+	<test name="CalculatorTestCtg">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestCtg"></class>
+		</classes>
+	</test>
+	<test name="CalculatorTestSin">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestSin"></class>
+		</classes>
+	</test>
+	<test name="CalculatorTestCos">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestCos"></class>
+		</classes>
+	</test>
+	<test name="CalculatorTestIsPositive">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestIsPositive"></class>
+		</classes>
+	</test>
+	<test name="CalculatorTestIsNegative">
+		<classes>
+			<class name="by.epam.atmentoring.unittest.CalculatorTestIsNegative"></class>
+		</classes>
+	</test>
+</suite>

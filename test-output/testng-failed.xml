@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" configfailurepolicy="continue" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [CalculatorTestSuite]" parallel="tests">
+  <test name="CalculatorTestDiv(failed)" parallel="tests">
+    <classes>
+      <class name="by.epam.atmentoring.unittest.CalculatorTestDiv">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testDiv" invocation-numbers="0 1 2 3 4"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestDiv -->
+    </classes>
+  </test> <!-- CalculatorTestDiv(failed) -->
+  <test name="CalculatorTestMult(failed)" parallel="tests">
+    <classes>
+      <class name="by.epam.atmentoring.unittest.CalculatorTestMult">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testMult" invocation-numbers="0 1 2 5 6"/>
+        </methods>
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestMult -->
+    </classes>
+  </test> <!-- CalculatorTestMult(failed) -->
+  <test name="CalculatorTestTg(failed)" parallel="tests">
+    <classes>
+      <class name="by.epam.atmentoring.unittest.CalculatorTestTg">
+        <methods>
+          <include name="testTg" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestTg -->
+    </classes>
+  </test> <!-- CalculatorTestTg(failed) -->
+  <test name="CalculatorTestCtg(failed)" parallel="tests">
+    <classes>
+      <class name="by.epam.atmentoring.unittest.CalculatorTestCtg">
+        <methods>
+          <include name="testCtg" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestCtg -->
+    </classes>
+  </test> <!-- CalculatorTestCtg(failed) -->
+  <test name="CalculatorTestSqrt(failed)" parallel="tests">
+    <classes>
+      <class name="by.epam.atmentoring.unittest.CalculatorTestSqrt">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSqrt" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestSqrt -->
+    </classes>
+  </test> <!-- CalculatorTestSqrt(failed) -->
+  <test name="CalculatorTestCos(failed)" parallel="tests">
+    <classes>
+      <class name="by.epam.atmentoring.unittest.CalculatorTestCos">
+        <methods>
+          <include name="testCos" invocation-numbers="0 1 2 3 4 5 6"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestCos -->
+    </classes>
+  </test> <!-- CalculatorTestCos(failed) -->
+</suite> <!-- Failed suite [CalculatorTestSuite] -->

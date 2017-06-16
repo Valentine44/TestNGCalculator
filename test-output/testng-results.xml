@@ -1,0 +1,3439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="32" ignored="0" total="114" passed="82">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CalculatorTestSuite" duration-ms="382" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+    <groups>
+      <group name="failed">
+        <method signature="CalculatorTestMult.testMult(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" class="by.epam.atmentoring.unittest.CalculatorTestMult"/>
+        <method signature="CalculatorTestDiv.testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" class="by.epam.atmentoring.unittest.CalculatorTestDiv"/>
+        <method signature="CalculatorTestSqrt.testSqrt(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSqrt@46d56d67]" name="testSqrt" class="by.epam.atmentoring.unittest.CalculatorTestSqrt"/>
+        <method signature="CalculatorTestTg.testTg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestTg@29774679]" name="testTg" class="by.epam.atmentoring.unittest.CalculatorTestTg"/>
+        <method signature="CalculatorTestCtg.testCtg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCtg@6f7fd0e6]" name="testCtg" class="by.epam.atmentoring.unittest.CalculatorTestCtg"/>
+        <method signature="CalculatorTestCos.testCos(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCos@7cd62f43]" name="testCos" class="by.epam.atmentoring.unittest.CalculatorTestCos"/>
+      </group> <!-- failed -->
+    </groups>
+    <test name="CalculatorTestSub" duration-ms="115" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestSub">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="setUp" is-config="true" duration-ms="6" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSub(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="7" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1.7976931348623157E308]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="4" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="24" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-0.91]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="2" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9223372036854775808]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-9223372036854775807]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="3" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="2" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="testSub(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="testSub" duration-ms="4" started-at="2017-06-11T12:24:12Z" data-provider="subDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9223372036854775807]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9223372036854775806]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSub -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSub@548a9f61]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestSub -->
+    </test> <!-- CalculatorTestSub -->
+    <test name="CalculatorTestDiv" duration-ms="157" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestDiv">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="setUp" is-config="true" duration-ms="6" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="4" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderDoubleZero" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.7976931348623157E308]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method CalculatorTestDiv.testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc] should have thrown an exception of type class java.lang.NumberFormatException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method CalculatorTestDiv.testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:89)
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1416)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:695)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="FAIL" signature="testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderDoubleZero" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method CalculatorTestDiv.testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc] should have thrown an exception of type class java.lang.NumberFormatException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method CalculatorTestDiv.testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:89)
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1416)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:695)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="FAIL" signature="testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="3" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderDoubleZero" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method CalculatorTestDiv.testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc] should have thrown an exception of type class java.lang.NumberFormatException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method CalculatorTestDiv.testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:89)
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1416)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:695)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="FAIL" signature="testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderDoubleZero" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method CalculatorTestDiv.testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc] should have thrown an exception of type class java.lang.NumberFormatException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method CalculatorTestDiv.testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:89)
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1416)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:695)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="FAIL" signature="testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderDoubleZero" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method CalculatorTestDiv.testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc] should have thrown an exception of type class java.lang.NumberFormatException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method CalculatorTestDiv.testDiv(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:89)
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1416)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:695)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.988465674311579E307]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-5.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2.55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="3" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123.45678]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.3333333333333335]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.988465674311579E307]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLongZero" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9223372036854775808]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at by.epam.atmentoring.unittest.CalculatorTestDiv.testDiv(CalculatorTestDiv.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="2" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLongZero" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at by.epam.atmentoring.unittest.CalculatorTestDiv.testDiv(CalculatorTestDiv.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLongZero" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at by.epam.atmentoring.unittest.CalculatorTestDiv.testDiv(CalculatorTestDiv.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLongZero" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at by.epam.atmentoring.unittest.CalculatorTestDiv.testDiv(CalculatorTestDiv.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLongZero" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9223372036854775807]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NumberFormatException">
+            <message>
+              <![CDATA[Attempt to divide by zero]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NumberFormatException: Attempt to divide by zero
+	at com.epam.tat.module4.Calculator.div(Calculator.java:34)
+	at by.epam.atmentoring.unittest.CalculatorTestDiv.testDiv(CalculatorTestDiv.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NumberFormatException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="4" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9223372036854775808]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-4611686018427387904]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-42]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-7]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="5" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="3" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[225]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="testDiv(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="testDiv" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="divDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9223372036854775807]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4611686018427387903]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDiv -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestDiv@6767c1fc]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestDiv -->
+    </test> <!-- CalculatorTestDiv -->
+    <test name="CalculatorTestSum" duration-ms="85" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestSum">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="setUp" is-config="true" duration-ms="6" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="7" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1.7976931348623157E308]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="3" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.01]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="3" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="21" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.7976931348623157E308]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9223372036854775808]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-9223372036854775807]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="3" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="testSum(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="testSum" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="sumDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9223372036854775807]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[9223372036854775806]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSum -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSum@6d8a00e3]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestSum -->
+    </test> <!-- CalculatorTestSum -->
+    <test name="CalculatorTestMult" duration-ms="105" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestMult">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="setUp" is-config="true" duration-ms="6" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testMult(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="8" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.75]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1.125]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-1.125] but found [-2.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-1.125] but found [-2.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestMult.testMult(CalculatorTestMult.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="FAIL" signature="testMult(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="3" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.25]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2.25] but found [2.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2.25] but found [2.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestMult.testMult(CalculatorTestMult.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="FAIL" signature="testMult(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="2" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.0] but found [-0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.0] but found [-0.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestMult.testMult(CalculatorTestMult.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="8" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="FAIL" signature="testMult(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.25]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [2.25] but found [2.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [2.25] but found [2.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestMult.testMult(CalculatorTestMult.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="FAIL" signature="testMult(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="2" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.75]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.125]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.125] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.125] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestMult.testMult(CalculatorTestMult.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="testMult(long, long, long)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="testMult" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="multDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestMult@675d3402]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestMult -->
+    </test> <!-- CalculatorTestMult -->
+    <test name="CalculatorTestTg" duration-ms="13" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestTg">
+        <test-method status="FAIL" signature="testTg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestTg@29774679]" name="testTg" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="tgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-6.2832]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.0] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.0] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestTg.testTg(CalculatorTestTg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTg -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestTg@29774679]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testTg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestTg@29774679]" name="testTg" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="tgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0175]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0175]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.0175] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.0175] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestTg.testTg(CalculatorTestTg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTg -->
+        <test-method status="FAIL" signature="testTg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestTg@29774679]" name="testTg" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="tgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0472]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.7321]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.7321] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.7321] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestTg.testTg(CalculatorTestTg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTg -->
+        <test-method status="FAIL" signature="testTg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestTg@29774679]" name="testTg" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="tgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5708]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Infinity] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Infinity] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestTg.testTg(CalculatorTestTg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTg -->
+        <test-method status="FAIL" signature="testTg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestTg@29774679]" name="testTg" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="tgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.1416]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.0] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.0] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestTg.testTg(CalculatorTestTg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTg -->
+        <test-method status="FAIL" signature="testTg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestTg@29774679]" name="testTg" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="tgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.7997]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-11.4301]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-11.4301] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-11.4301] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestTg.testTg(CalculatorTestTg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTg -->
+        <test-method status="FAIL" signature="testTg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestTg@29774679]" name="testTg" duration-ms="3" started-at="2017-06-11T12:24:12Z" data-provider="tgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.2832]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.0] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.0] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestTg.testTg(CalculatorTestTg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTg -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestTg -->
+    </test> <!-- CalculatorTestTg -->
+    <test name="CalculatorTestCtg" duration-ms="17" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestCtg">
+        <test-method status="FAIL" signature="testCtg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCtg@6f7fd0e6]" name="testCtg" duration-ms="11" started-at="2017-06-11T12:24:12Z" data-provider="ctgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-6.2832]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Infinity] but found [-0.9999930255445617]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Infinity] but found [-0.9999930255445617]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCtg.testCtg(CalculatorTestCtg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCtg -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCtg@6f7fd0e6]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testCtg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCtg@6f7fd0e6]" name="testCtg" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="ctgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0175]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[57.29]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [57.29] but found [0.01749821376048069]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [57.29] but found [0.01749821376048069]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCtg.testCtg(CalculatorTestCtg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCtg -->
+        <test-method status="FAIL" signature="testCtg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCtg@6f7fd0e6]" name="testCtg" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="ctgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0472]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.5774]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.5774] but found [0.7807153915783637]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.5774] but found [0.7807153915783637]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCtg.testCtg(CalculatorTestCtg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCtg -->
+        <test-method status="FAIL" signature="testCtg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCtg@6f7fd0e6]" name="testCtg" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="ctgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5708]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.0] but found [0.9171529190863275]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.0] but found [0.9171529190863275]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCtg.testCtg(CalculatorTestCtg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCtg -->
+        <test-method status="FAIL" signature="testCtg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCtg@6f7fd0e6]" name="testCtg" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="ctgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.1416]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-Infinity]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-Infinity] but found [0.9962721308919683]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-Infinity] but found [0.9962721308919683]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCtg.testCtg(CalculatorTestCtg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCtg -->
+        <test-method status="FAIL" signature="testCtg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCtg@6f7fd0e6]" name="testCtg" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="ctgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.7997]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.0875]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-0.0875] but found [0.9998644704129042]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-0.0875] but found [0.9998644704129042]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCtg.testCtg(CalculatorTestCtg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCtg -->
+        <test-method status="FAIL" signature="testCtg(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCtg@6f7fd0e6]" name="testCtg" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="ctgDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.2832]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Infinity]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Infinity] but found [0.9999930255445617]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Infinity] but found [0.9999930255445617]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCtg.testCtg(CalculatorTestCtg.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCtg -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestCtg -->
+    </test> <!-- CalculatorTestCtg -->
+    <test name="CalculatorTestPow" duration-ms="122" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestPow">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestPow@4b9e13df]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestPow@4b9e13df]" name="testPow" duration-ms="10" started-at="2017-06-11T12:24:12Z" data-provider="powDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPow -->
+        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestPow@4b9e13df]" name="testPow" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="powDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPow -->
+        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestPow@4b9e13df]" name="testPow" duration-ms="3" started-at="2017-06-11T12:24:12Z" data-provider="powDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPow -->
+        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestPow@4b9e13df]" name="testPow" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="powDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPow -->
+        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestPow@4b9e13df]" name="testPow" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="powDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPow -->
+        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestPow@4b9e13df]" name="testPow" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="powDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPow -->
+        <test-method status="PASS" signature="testPow(double, double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestPow@4b9e13df]" name="testPow" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="powDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPow -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestPow@4b9e13df]" name="tearDown" is-config="true" duration-ms="1" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestPow -->
+    </test> <!-- CalculatorTestPow -->
+    <test name="CalculatorTestSqrt" duration-ms="10" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestSqrt">
+        <test-method status="FAIL" signature="testSqrt(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSqrt@46d56d67]" name="testSqrt" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="sqrtDataProviderDoubleNegative" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.TestException">
+            <message>
+              <![CDATA[
+Method CalculatorTestSqrt.testSqrt(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSqrt@46d56d67] should have thrown an exception of type class java.lang.NumberFormatException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestException: 
+Method CalculatorTestSqrt.testSqrt(double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSqrt@46d56d67] should have thrown an exception of type class java.lang.NumberFormatException
+	at org.testng.internal.ExpectedExceptionsHolder.noException(ExpectedExceptionsHolder.java:89)
+	at org.testng.internal.Invoker.handleInvocationResults(Invoker.java:1416)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:695)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrt -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSqrt@46d56d67]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSqrt(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSqrt@46d56d67]" name="testSqrt" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="sqrtDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrt -->
+        <test-method status="PASS" signature="testSqrt(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSqrt@46d56d67]" name="testSqrt" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sqrtDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrt -->
+        <test-method status="PASS" signature="testSqrt(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSqrt@46d56d67]" name="testSqrt" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="sqrtDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2.25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrt -->
+        <test-method status="PASS" signature="testSqrt(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSqrt@46d56d67]" name="testSqrt" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sqrtDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.1622776601683795]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrt -->
+        <test-method status="PASS" signature="testSqrt(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSqrt@46d56d67]" name="testSqrt" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sqrtDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[225.0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[15.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSqrt -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSqrt@46d56d67]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestSqrt -->
+    </test> <!-- CalculatorTestSqrt -->
+    <test name="CalculatorTestCos" duration-ms="42" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestCos">
+        <test-method status="FAIL" signature="testCos(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCos@7cd62f43]" name="testCos" duration-ms="3" started-at="2017-06-11T12:24:12Z" data-provider="cosDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-6.2832]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-1.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCos.testCos(CalculatorTestCos.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCos -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCos@7cd62f43]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="testCos(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCos@7cd62f43]" name="testCos" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="cosDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0472]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.5] but found [0.866]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.5] but found [0.866]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCos.testCos(CalculatorTestCos.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCos -->
+        <test-method status="FAIL" signature="testCos(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCos@7cd62f43]" name="testCos" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="cosDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0175]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.9998]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.9998] but found [0.0175]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.9998] but found [0.0175]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCos.testCos(CalculatorTestCos.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCos -->
+        <test-method status="FAIL" signature="testCos(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCos@7cd62f43]" name="testCos" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="cosDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5708]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.0] but found [1.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.0] but found [1.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCos.testCos(CalculatorTestCos.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCos -->
+        <test-method status="FAIL" signature="testCos(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCos@7cd62f43]" name="testCos" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="cosDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.1416]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [-1.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [-1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCos.testCos(CalculatorTestCos.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCos -->
+        <test-method status="FAIL" signature="testCos(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCos@7cd62f43]" name="testCos" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="cosDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.7997]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0872]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [0.0872] but found [-0.9962]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [0.0872] but found [-0.9962]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCos.testCos(CalculatorTestCos.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCos -->
+        <test-method status="FAIL" signature="testCos(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestCos@7cd62f43]" name="testCos" duration-ms="4" started-at="2017-06-11T12:24:12Z" data-provider="cosDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.2832]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [1.0] but found [0.0]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [1.0] but found [0.0]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:178)
+	at by.epam.atmentoring.unittest.CalculatorTestCos.testCos(CalculatorTestCos.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:414)
+	at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCos -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestCos -->
+    </test> <!-- CalculatorTestCos -->
+    <test name="CalculatorTestIsPositive" duration-ms="33" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestIsPositive">
+        <test-method status="PASS" signature="testIsPositive(long, boolean)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsPositive@42e26948]" name="testIsPositive" duration-ms="7" started-at="2017-06-11T12:24:12Z" data-provider="isPositiveDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9223372036854775808]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsPositive -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsPositive@42e26948]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testIsPositive(long, boolean)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsPositive@42e26948]" name="testIsPositive" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="isPositiveDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsPositive -->
+        <test-method status="PASS" signature="testIsPositive(long, boolean)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsPositive@42e26948]" name="testIsPositive" duration-ms="21" started-at="2017-06-11T12:24:12Z" data-provider="isPositiveDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsPositive -->
+        <test-method status="PASS" signature="testIsPositive(long, boolean)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsPositive@42e26948]" name="testIsPositive" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="isPositiveDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsPositive -->
+        <test-method status="PASS" signature="testIsPositive(long, boolean)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsPositive@42e26948]" name="testIsPositive" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="isPositiveDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9223372036854775807]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsPositive -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestIsPositive -->
+    </test> <!-- CalculatorTestIsPositive -->
+    <test name="CalculatorTestSin" duration-ms="6" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestSin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSin@1bce4f0a]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testSin(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSin@1bce4f0a]" name="testSin" duration-ms="1" started-at="2017-06-11T12:24:12Z" data-provider="sinDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-6.2832]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSin -->
+        <test-method status="PASS" signature="testSin(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSin@1bce4f0a]" name="testSin" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sinDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0.0175]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0175]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSin -->
+        <test-method status="PASS" signature="testSin(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSin@1bce4f0a]" name="testSin" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sinDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.0472]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.866]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSin -->
+        <test-method status="PASS" signature="testSin(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSin@1bce4f0a]" name="testSin" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sinDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.5708]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSin -->
+        <test-method status="PASS" signature="testSin(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSin@1bce4f0a]" name="testSin" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sinDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4.7997]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[-0.9962]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSin -->
+        <test-method status="PASS" signature="testSin(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSin@1bce4f0a]" name="testSin" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sinDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.1416]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSin -->
+        <test-method status="PASS" signature="testSin(double, double)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestSin@1bce4f0a]" name="testSin" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="sinDataProviderDouble" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6.2832]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSin -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestSin -->
+    </test> <!-- CalculatorTestSin -->
+    <test name="CalculatorTestIsNegative" duration-ms="33" started-at="2017-06-11T09:24:12Z" finished-at="2017-06-11T09:24:12Z">
+      <class name="by.epam.atmentoring.unittest.CalculatorTestIsNegative">
+        <test-method status="PASS" signature="testIsNegative(long, boolean)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsNegative@77cd7a0]" name="testIsNegative" duration-ms="29" started-at="2017-06-11T12:24:12Z" data-provider="isNegativeDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-9223372036854775808]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegative -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsNegative@77cd7a0]" name="setUp" is-config="true" duration-ms="0" started-at="2017-06-11T12:24:12Z" finished-at="2017-06-11T12:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testIsNegative(long, boolean)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsNegative@77cd7a0]" name="testIsNegative" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="isNegativeDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[-1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[true]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegative -->
+        <test-method status="PASS" signature="testIsNegative(long, boolean)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsNegative@77cd7a0]" name="testIsNegative" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="isNegativeDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegative -->
+        <test-method status="PASS" signature="testIsNegative(long, boolean)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsNegative@77cd7a0]" name="testIsNegative" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="isNegativeDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegative -->
+        <test-method status="PASS" signature="testIsNegative(long, boolean)[pri:0, instance:by.epam.atmentoring.unittest.CalculatorTestIsNegative@77cd7a0]" name="testIsNegative" duration-ms="0" started-at="2017-06-11T12:24:12Z" data-provider="isNegativeDataProviderLong" finished-at="2017-06-11T12:24:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9223372036854775807]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsNegative -->
+      </class> <!-- by.epam.atmentoring.unittest.CalculatorTestIsNegative -->
+    </test> <!-- CalculatorTestIsNegative -->
+  </suite> <!-- CalculatorTestSuite -->
+</testng-results>
